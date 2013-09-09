@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "postinstall": "bower install --quiet",
+    "start": "./test/support/start && testem -f test/testem.json && ./test/support/stop",
+    "test": "./test/support/start && testem -f test/testem.json ci && ./test/support/stop",
+    "stat": "cloc index.js --quiet --by-file && cloc test/*.js --quiet --by-file --exclude-dir=support"
+  },
+  "devDependencies": {
+    "bower": "~1.0.x",
+    "testem": "~0.3.x"
+  }
+}

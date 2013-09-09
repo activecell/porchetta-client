@@ -1,0 +1,24 @@
+{
+  "name": "porchetta",
+  "version": "0.1.0",
+  "description": "Porchetta client",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "~1.10.x",
+    "backbone": "~1.0.0",
+    "underscore": "~1.5.x",
+    "socket.io-client": "~0.9.16"
+  },
+  "devDependencies": {
+    "chai": "~1.7.x",
+    "async": "~0.2.x",
+    "sinon": "http://sinonjs.org/releases/sinon-1.7.1.js"
+  },
+  "ignore": [
+    "**/.*",
+    "lib",
+    "test",
+    "package.json"
+  ]
+}
