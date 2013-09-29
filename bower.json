@@ -11,13 +11,12 @@
     "socket.io-client": "~0.9.16"
   },
   "devDependencies": {
-    "chai": "~1.7.x",
-    "async": "~0.2.x",
+    "chai": "*",
+    "async": "*",
     "sinon": "http://sinonjs.org/releases/sinon-1.7.1.js"
   },
   "ignore": [
     "**/.*",
-    "lib",
     "test",
     "package.json"
   ]

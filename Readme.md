@@ -1,6 +1,6 @@
 # Porchetta Client [![Build Status](https://circleci.com/gh/activecell/porchetta-client.png?circle-token=e4e94a5aa232fb270ea22a5f32a34e3db5e75b61)](https://circleci.com/gh/activecell/porchetta-client)
 
-  A bad-ass socket client for porchetta-server.
+  A bad-ass client for porchetta-server.
 
 ## Installation
 
@@ -72,3 +72,10 @@ porchetta.on 'connect', ->
 ### porchetta#addModel(model, name)
 
   Sync Backbone.Model instance through porchetta-server. It tracks only `change` event. Logic is similar to `addCollection`.
+
+Development
+-----------
+
+  * `npm install` - to install npm/bower dependencies
+  * `npm test` - to run tests
+  * `npm start` - to start local watch server on http://localhost:7357

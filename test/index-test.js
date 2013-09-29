@@ -19,7 +19,7 @@ describe('porchetta-client', function() {
     ]);
     var company = new Company({ id: 1, name: 'Sterling Cooper Price' });
 
-    var porchetta = new Porchetta('http://localhost:4000', room, { 'force new connection': true })
+    var porchetta = new Porchetta('http://localhost:4001', room, { 'force new connection': true })
       .addCollection(vendors, 'vendors')
       .addCollection(accounts, 'accounts')
       .addModel(company, 'company')
