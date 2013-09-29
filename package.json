@@ -6,7 +6,8 @@
     "stat": "cloc index.js --quiet --by-file && cloc test/*.js --quiet --by-file --exclude-dir=support"
   },
   "devDependencies": {
-    "bower": "~1.0.x",
-    "testem": "~0.3.x"
+    "bower": "*",
+    "testem": "*",
+    "porchetta": "git+ssh://git@github.com/activecell/porchetta.git#0.4.0"
   }
 }

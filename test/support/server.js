@@ -1,2 +1,2 @@
-process.env.ORIGIN = 'http://localhost:4001';
-require('porchetta-server');
+process.env.PORT = '4001';
+require('porchetta');
