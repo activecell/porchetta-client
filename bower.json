@@ -1,6 +1,6 @@
 {
   "name": "porchetta",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Porchetta client",
   "private": true,
   "main": "index.js",

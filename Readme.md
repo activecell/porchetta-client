@@ -68,6 +68,7 @@ porchetta.on 'connect', ->
 ### porchetta#addCollection(collection, name)
 
   Sync Backbone.Collection events: `add`, `change`, `remove`. Make sure that `name` is unique identificator.
+  For collections, which do not have id, you have to define `findByJSON` method.
 
 ### porchetta#addModel(model, name)
 
