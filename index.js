@@ -99,7 +99,11 @@ Porchetta.prototype.onsync = function(data) {
       break;
 
     case 'change':
-      if (!model) model = collection.get(data.json.id);
+      if (!model) {
+        model = data.json.id
+          ? collection.get(data.json.id)
+          : collection.findByJSON(data.json); // collection without id
+      }
       if (model) model.set(data.json, { socketId: data.socketId });
       break;
 
